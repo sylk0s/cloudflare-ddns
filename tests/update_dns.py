@@ -1,7 +1,7 @@
 import CloudFlare
 
 def main():
-    cf = CloudFlare.CloudFlare(token="FeR7OtS2KhcsRg2TQS--TK8cF-oRmPnrfU7Zg_lT")
+    cf = CloudFlare.CloudFlare(token="lol")
     zones = cf.zones.get()
     for zone in zones:
         zone_id = zone['id']
