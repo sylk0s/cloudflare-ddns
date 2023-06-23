@@ -1,5 +1,6 @@
 # does some stuff
-
+def main():
+    pass
 
 if __name__ == "__main__":
-    # run the program
+    main()
