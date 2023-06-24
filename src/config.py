@@ -24,6 +24,7 @@ class ClfJobConfig:
         self.__domain = os.getenv("DOMAIN")
 
     # Various getter methods for the read only properties of the config
+    # these are so simple so im not gonna docstring
     
     @property
     def token(self):

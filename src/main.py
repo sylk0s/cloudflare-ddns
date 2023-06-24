@@ -13,6 +13,8 @@ import os
 
 # runs the program
 def main():
+    """Main method"""
+    
     load_dotenv()
     runner = Runner()
 
