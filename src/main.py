@@ -1,13 +1,16 @@
 from clf_io import DynDNSJob
 from runner import Runner
 from config import ClfJobConfig
+from dotenv import load_dotenv
+import os
 
 # does some stuff
 def main():
+    load_dotenv()
     runner = Runner()
 
     # creates a task
-    config = ClfJobConfig("NOPE", "sylkos.xyz", 1, "A", "sylkos.xyz")
+    config = ClfJobConfig()
     task = DynDNSJob(config)
     runner.add_task(task)
 
