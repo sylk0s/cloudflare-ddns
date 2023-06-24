@@ -1,3 +1,5 @@
+# simplest possible request setup
+
 import requests
 
 response = requests.get("https://api.my-ip.io/ip.json")

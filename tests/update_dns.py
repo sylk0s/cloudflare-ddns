@@ -1,3 +1,5 @@
+# test for updating DNS, modified from the cloudflare example
+
 import CloudFlare
 
 def main():

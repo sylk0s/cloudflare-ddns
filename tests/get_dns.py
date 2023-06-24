@@ -1,3 +1,4 @@
+# default example from cloudflare
 import CloudFlare
 
 def main():
