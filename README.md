@@ -1,4 +1,7 @@
 # cloudflare-ddns
+
+> ⚠️⚠️⚠️ This project has been rewritten in [sylk0s/simple-ddns](https://github.com/sylk0s/simple-ddns). This was a project I did for a class, and thus, was bad.
+
 A Dynamic DNS script for cloudflare
 
 All the other ones I could find were really old so i just made my own
